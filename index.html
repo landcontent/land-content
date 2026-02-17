@@ -328,7 +328,8 @@
       Share a few details about your land and how to reach you. We’ll review your property and follow up to discuss a potential cash offer.
     </p>
 
-    <form action="#" method="post">
+   <form action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="3d17d0c2-6d1d-40fc-9a32-49d0bbd56056">
       <label for="name">Your Name</label>
       <input id="name" name="name" type="text" placeholder="First and Last Name" required>
 
@@ -357,6 +358,8 @@
         By submitting, you agree that we may contact you about this property. There is no obligation to accept any offer.
       </p>
 
+      <input type="checkbox" name="botcheck" style="display:none;">
+      <input type="hidden" name="subject" value="New Land Lead from TK Secure Land">
       <button type="submit" class="btn btn-primary" style="margin-top:10px;">Submit My Property</button>
     </form>
   </div>
@@ -368,7 +371,7 @@
       © <span id="year"></span> TK Secure Land. All rights reserved.
     </div>
     <div>
-      Email: <a href="mailto:tksecureland@gmail.com">tksecureland@gmail.com</a>
+      Email: <a href="mailto:kishore@tksecureland.com">kishore@tksecureland.com</a>
       &nbsp;|&nbsp;
       www.tksecureland.com
     </div>
