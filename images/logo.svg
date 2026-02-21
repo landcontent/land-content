@@ -1,11 +1,11 @@
-<svg width="320" height="90" viewBox="0 0 320 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">TK Secure Land – Vintage Logo</title>
+<svg width="360" height="90" viewBox="0 0 320 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">TK Secure Land</title>
   <desc id="desc">A vintage-style badge showing a sunrise over fields with the text TK Secure Land.</desc>
 
   <!-- ICON: Vintage land badge on the left -->
   <g transform="translate(0,10)">
     <!-- Outer vintage badge -->
-    <rect x="4" y="8" width="140" height="64" rx="24"
+    <rect x="2" y="1" width="140" height="64" rx="24"
           fill="#F7F0DF" stroke="#154554" stroke-width="2.5"/>
 
     <!-- Horizon line -->
@@ -53,15 +53,14 @@
           font-size="20"
           font-weight="700"
           letter-spacing="1">
-      <tspan fill="#C89A4A">TK </tspan>
-      <tspan fill="#154554">SECURE LAND</tspan>
+      <tspan fill="#C89A4A">TK SECURE LAND</tspan>
     </text>
 
     <!-- Tagline -->
     <text x="0" y="26"
           font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
           font-size="12"
-          fill="#6B7280">
+          fill="#e2e8f0">
       We buy unused land, simply.
     </text>
   </g>
