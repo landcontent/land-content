@@ -1,0 +1,68 @@
+<svg width="320" height="90" viewBox="0 0 320 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">TK Secure Land – Vintage Logo</title>
+  <desc id="desc">A vintage-style badge showing a sunrise over fields with the text TK Secure Land.</desc>
+
+  <!-- ICON: Vintage land badge on the left -->
+  <g transform="translate(0,10)">
+    <!-- Outer vintage badge -->
+    <rect x="4" y="8" width="140" height="64" rx="24"
+          fill="#F7F0DF" stroke="#154554" stroke-width="2.5"/>
+
+    <!-- Horizon line -->
+    <line x1="16" y1="40" x2="132" y2="40"
+          stroke="#154554" stroke-width="2"/>
+
+    <!-- Sun -->
+    <circle cx="74" cy="40" r="12"
+            fill="#F7E2B0" stroke="#154554" stroke-width="2"/>
+
+    <!-- Mask to hide bottom half of sun (sunrise effect) -->
+    <rect x="62" y="40" width="24" height="18" fill="#F7F0DF"/>
+
+    <!-- Sun rays -->
+    <!-- Top ray -->
+    <line x1="74" y1="16" x2="74" y2="23"
+          stroke="#F1C46A" stroke-width="2" stroke-linecap="round"/>
+    <!-- Top-left ray -->
+    <line x1="62" y1="18" x2="66" y2="24"
+          stroke="#F1C46A" stroke-width="2" stroke-linecap="round"/>
+    <!-- Top-right ray -->
+    <line x1="86" y1="18" x2="82" y2="24"
+          stroke="#F1C46A" stroke-width="2" stroke-linecap="round"/>
+    <!-- Left ray -->
+    <line x1="56" y1="28" x2="62" y2="30"
+          stroke="#F1C46A" stroke-width="2" stroke-linecap="round"/>
+    <!-- Right ray -->
+    <line x1="92" y1="28" x2="86" y2="30"
+          stroke="#F1C46A" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Field stripe 1 -->
+    <path d="M16 40 C 36 50, 56 54, 74 54 C 92 54, 112 50, 132 40"
+          fill="none" stroke="#C89A4A" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Field stripe 2 -->
+    <path d="M16 45 C 36 55, 56 59, 74 59 C 92 59, 112 55, 132 45"
+          fill="none" stroke="#8C8E5A" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- TEXT: TK Secure Land on the right -->
+  <g transform="translate(160,26)">
+    <!-- Main name -->
+    <text x="0" y="0"
+          font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+          font-size="20"
+          font-weight="700"
+          letter-spacing="1">
+      <tspan fill="#C89A4A">TK </tspan>
+      <tspan fill="#154554">SECURE LAND</tspan>
+    </text>
+
+    <!-- Tagline -->
+    <text x="0" y="26"
+          font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+          font-size="12"
+          fill="#6B7280">
+      We buy unused land, simply.
+    </text>
+  </g>
+</svg>
